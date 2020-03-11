@@ -15,7 +15,6 @@ header {
 }
 
 body {
-  width: 940px;
   margin: auto;
 }
 
@@ -32,6 +31,7 @@ body {
 }
 
 .banner {
+  width: 940px;
   background: #FBDFDB;
   border-radius: 30px;
   height: 366px;
@@ -55,11 +55,17 @@ body {
   padding: 65px 120px 0 0;
 }
 
+.title h2 {
+  width: 940px;
+  padding: 50px 0 22px;
+  margin: 0 auto;
+}
+
 .cards {
   max-width: 940px;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
@@ -69,5 +75,38 @@ body {
 
 .card_image-container img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 15px;
+}
+
+.cardContent {
+  padding-bottom: 22px;
+}
+.cardTitle {
+  font-weight: normal;
+  font-size: 18px;
+  color: #111;
+  padding-top: 12px;
+}
+
+.cardInfo {
+  font-weight: normal;
+  font-size: 14px;
+  color: #777;
+  padding-top: 4px;
+}
+
+footer {
+  background: #EEE;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.rodape {
+  padding: 22px;
+}
+.rodape p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
 }
