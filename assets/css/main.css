@@ -8,7 +8,66 @@
 }
 
 header {
-  padding: 22px;
+  padding: 30px 22px;
   width: 940px;
   margin: auto;
+  display: flex;
+}
+
+body {
+  width: 940px;
+  margin: auto;
+}
+
+.logo {
+  margin-right: 122px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  margin-right: 30px;
+  color: #111;
+}
+
+.banner {
+  background: #FBDFDB;
+  border-radius: 30px;
+  height: 366px;
+  display: flex;
+  margin: auto;
+}
+.bannerInfo {
+  max-width: 316px;
+  margin: auto;
+}
+
+.bannerInfo p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+  opacity: 0.7;
+  font-weight: normal;
+}
+
+.bannerThumb {
+  padding: 65px 120px 0 0;
+}
+
+.cards {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  max-width: 300px;
+}
+
+.card_image-container img {
+  width: 100%;
+  border-radius: 30px;
 }
