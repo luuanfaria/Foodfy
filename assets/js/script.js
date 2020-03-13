@@ -4,16 +4,17 @@ const cards = document.querySelectorAll('.card')
 for (let card of cards) {
   card.addEventListener("click", function () {
 
+    modalOverlay.classList.add('active')
+
     modalOverlay.querySelector('img').src =
     card.querySelector('img').src
 
     modalOverlay.querySelector('h2').innerHTML =
-    card.querySelector('.title-content').innerHTML
+    card.querySelector('.cardTitle').innerText
 
     modalOverlay.querySelector('p').innerHTML =
-    card.querySelector('.author').innerHTML
-
-    modalOverlay.classList.add('active')
+    card.querySelector('.cardInfo').innerText
+  
   })
 }
 
