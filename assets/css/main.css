@@ -133,8 +133,8 @@ iframe {
 }
 
 footer {
+  margin-top: 60px;
   background: #EEE;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
